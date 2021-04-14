@@ -1,0 +1,8 @@
+This file contains the following: 
+
+TestCase1.txt: This is the instruction file used to tell the program which commands to execute 
+aduit.txt: This file contains the displayed output to the user from each of the commands that are run in the instruction file 
+file1.txt, file2.txt, file3.txt: These are photos that have been posted to the wall 
+friends.txt: Contains the list of friends that have been added to the profile owners friend list 
+lists.txt: Contains the friends which have been added to lists and which list they have been added to 
+pictures.txt: Contains a list of pictures which have been posted to the wall and their respective read/write permissions 
