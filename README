@@ -1,1 +1,27 @@
+Project for implementing access control 
 
+This project was done to implement access control of a fake simplified facebook page. 
+There is a profile owner which can have any amount of friends that must be added to view the page. 
+A friend can be added to zero or more lists. Only the profile owner can perform admin tasks 
+such as adding friends, creating lists, assigning friends to a list, changing owners 
+and setting access controls for reading and writing comments on posted pictures to the wall. 
+
+The program is run from the command line using an instruction file that contains a
+variety of the following commands:
+
+syntax for command:
+command (parameters)
+
+friendadd (friendname) : adds a friend with the name friendname 
+viewby (friendname): friend with friendname views the profile 
+logout: friend or profile owner viewing profile logs out 
+listadd (listname): list with the name listname is added with zero friends as default 
+friendlist (friendname, listname): adds friend with friend name to list, listname
+postpicture (picturename): post picture to wall with name picturename 
+chlst (picturename, listname): change the list assocaited with picturename 
+chmod (picturename, rw, rw, rw) change access permissions associated with photo. 
+        first rw indicates owner, second rw indicates associated list, third rw is for others
+chown (picturename, friendname): changes the owner of the picture to friendname
+readcomments (picturename): displays all the comments associated with picturename 
+writecomments (picturename, text): person viewing the profile writes text as comments under picturename
+end: the command which signifies the end of the instruction file 
