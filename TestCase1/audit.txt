@@ -1,0 +1,33 @@
+Friend root added 
+User root views the profile 
+Friend emma added 
+Friend nick added 
+Friend kevin added 
+List students created 
+Friend, nick, has been added to students
+Friend, kevin, has been added to students
+Friend root logged out 
+User emma views the profile 
+Picture file1.txt with owner emma and default permissions has been created 
+Friend emma wrote to file1.txt: text from emma in file1
+Permissions for file1.txt set to  rw rw rw by emma
+Friend emma logged out 
+User root views the profile 
+Picture file2.txt with owner root and default permissions has been created 
+Friend root wrote to file2.txt: txt from root in file2
+Friend root reads from file1.txt as: 
+text from emma in file1
+
+Friend root reads from file2.txt as: 
+txt from root in file2
+ 
+List for file1.txt has been changed to students by root
+Owner of file2.txt has been changed to kevin
+Friend root logged out 
+User nick views the profile 
+Picture file3.txt with owner nick and default permissions has been created 
+Friend nick wrote to file3.txt: text from nick in file3
+Friend nick logged out 
+User kevin views the profile 
+Friend kevin denied read access to file3.txt
+Friend kevin logged out 

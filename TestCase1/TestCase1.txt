@@ -1,0 +1,30 @@
+friendadd root
+viewby root
+friendadd emma 
+friendadd nick 
+friendadd kevin 
+listadd students
+friendlist nick students 
+friendlist kevin students 
+logout 
+viewby emma 
+postpicture file1.txt 
+writecomments file1.txt text from emma in file1
+chmod file1.txt rw rw rw 
+logout 
+viewby root 
+postpicture file2.txt 
+writecomments file2.txt txt from root in file2
+readcomments file1.txt 
+readcomments file2.txt 
+chlst file1.txt students 
+chown file2.txt kevin 
+logout 
+viewby nick
+postpicture file3.txt 
+writecomments file3.txt text from nick in file3
+logout 
+viewby kevin 
+readcomments file3.txt 
+logout 
+end 

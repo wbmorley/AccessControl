@@ -1,0 +1,3 @@
+file1.txt: emma nil rw -- -- 
+file2.txt: root nil rw -- -- 
+file3.txt: nick nil rw -- -- 
