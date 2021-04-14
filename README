@@ -19,7 +19,7 @@ listadd (listname): list with the name listname is added with zero friends as de
 friendlist (friendname, listname): adds friend with friend name to list, listname
 postpicture (picturename): post picture to wall with name picturename 
 chlst (picturename, listname): change the list assocaited with picturename 
-chmod (picturename, rw, rw, rw) change access permissions associated with photo. 
+chmod (picturename, rw, rw, rw) change access permissions associated with photo. r for read. w for write. - for none
         first rw indicates owner, second rw indicates associated list, third rw is for others
 chown (picturename, friendname): changes the owner of the picture to friendname
 readcomments (picturename): displays all the comments associated with picturename 
